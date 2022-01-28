@@ -6,10 +6,18 @@
     font-size:3rem;
     margin:1rem;
 }
-.main-p{
+.main-h3{
     font-size:2.5rem;
     margin:1rem;
+}
+.main-p{
+    font-size:2.3rem;
+    margin:1rem;
    
+}
+.side-list-text{
+    font-size:1.8rem;
+    margin:0.5rem;
 }
 .foot-p{
     font-size:1.8rem;

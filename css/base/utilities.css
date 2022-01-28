@@ -37,3 +37,10 @@
 .complement-text-color{
 color: var(--complement-btn-text-color);
 }
+
+.weight-mid{
+	font-weight:400;
+}
+.weight-small{
+	font-weight:300;
+}

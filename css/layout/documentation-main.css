@@ -1,0 +1,12 @@
+#documentation-main{
+    grid-area: main;
+    padding: 1rem 2rem;
+}
+
+.comp-intro{
+    padding:1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+.side-bar{
+    grid-area: sidebar;
+    padding:3rem 2rem;
+    border-right: 1px solid black;
+   overflow: auto;
+   position:sticky;
+}
+
+.sidebar-list{
+    list-style-type:none;
+    padding-left: 1rem;
+}
+.componentList{
+padding:1rem;
+}
+.componentList:hover{
+    background-color:rgb(211, 211, 211,0.4);
+    border-radius: 4px;
+}
