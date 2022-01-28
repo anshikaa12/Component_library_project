@@ -1,0 +1,15 @@
+.footer{
+    grid-area: footer;
+    background-color:var(--text-color);
+    height:100%;
+    
+}
+
+.footer-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:2rem;
+    gap:1rem;
+}
