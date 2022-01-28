@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+@import url('../css/layout/sidebar.css');
+@import url('../css/base/base.css');
+@import url('../css/base/typography.css');
+@import url('../css/base/utilities.css');
+@import url('../css/layout/nav.css');
+@import url('../css/layout/documentation-main.css');
+@import url('../css/layout/content.css');
+@import url('../css/layout/footer.css');
+
+.documentation-page{
+    display:grid;
+    grid-template-columns: 0.7fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2fr 0.4fr;
+    grid-template-areas: "nav nav nav nav"
+                "sidebar main main main"
+                "footer footer footer footer";
+
+
+}
+
+
