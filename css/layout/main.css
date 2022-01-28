@@ -1,6 +1,6 @@
 #main{
     grid-area:main;
-
+    height:55rem;
 }
 .main-container{
     display: flex;
