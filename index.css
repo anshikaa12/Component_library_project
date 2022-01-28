@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+@import url('./css/base/base.css');
+@import url('./css/base/typography.css');
+@import url('./css/base/utilities.css');
+@import url('./css/layout/nav.css');
+@import url('./css/layout/main.css');
+@import url('./css/layout/content.css');
+@import url('./css/layout/footer.css');
+.landing-page{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 0.2fr 1fr 0.6fr 0.2fr;
+grid-template-areas: "nav nav nav nav"
+                     "main main main main"
+                     "content1 content1 content2 content2"
+                     "footer footer footer footer";  
+
+                                 
+}
+/* box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%); */
+
+@media only screen and (max-width:550px){
+    
+    .landing-page{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 0.4fr 0.4fr 0.2fr;
+        grid-template-areas: "nav"
+                     "main"
+                     "content1"
+                     "content2"
+                     "footer";  
+       
+    }
+}

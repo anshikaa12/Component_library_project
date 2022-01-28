@@ -1,0 +1,43 @@
+html{
+    font-size: 62.5%;
+    
+}
+:root{
+--primary-color: #008e76;
+--text-color:#0c080c;
+--accent-color: #af7a6d;
+--bg-color:white;
+--alt-text-color: #3E4152;
+--complement-btn-text-color: white;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color:var(--alt-text-color);
+}
+nav{
+    margin:0;
+    padding:0;
+}
+*{
+    padding:0;
+    margin:0;
+}
+button{
+    outline:none;
+    border:none;
+}
+
+@media only screen and (max-width:550px){
+    
+   html{
+       font-size:37.5%; /*6px*/
+   }
+}
+
+@media only screen and (max-width:830px){
+    html{
+        font-size:43.75%; /*7px*/
+    }
+}

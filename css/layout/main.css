@@ -1,0 +1,39 @@
+#main{
+    grid-area:main;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 4rem;
+    color:var(--alt-text-color);
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text-container{
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+    flex:1;
+padding:2rem;
+}
+.img-container{
+    flex:1;
+}
+
+
+.fluid-img{
+    height:auto;
+    width: 100%;
+}
+.main-img{
+    min-height:300px;
+    min-width:300px;
+}
+.main-btn{
+padding:2rem;
+display:flex;
+flex-direction: row;
+gap:1.5rem;
+}
+/****************************/
