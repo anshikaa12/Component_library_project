@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+
+/******************/
+.avatar-circle{
+    border-radius:50%;
+    background-color: var(--primary-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/******************/
+.avatar-big{
+    font-size:4rem;
+    height:10rem;
+    width:10rem;
+}
+.avatar-mid{
+    font-size:3rem;
+    height:6rem;
+    width:6rem;
+}
+.avatar-small{
+    height:3rem;
+    width:3rem;
+}
+/*********************************/ 
+
+.avatar-box{
+    border-radius:10%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/************************/
+.badge-avatar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.online-badge{
+    position: absolute;
+    background-color:green;
+    border-radius:50%;
+    height: 2rem;
+    width: 2rem;
+    bottom:3rem;
+    bottom:-0.3rem;
+    right:1rem;
+    
+}
+.offline-badge{
+    position: absolute;
+    background-color:red;
+    border-radius:50%;
+    height: 2rem;
+    width: 2rem;
+    bottom:-0.3rem;
+    right:0.3rem;
+}
+
