@@ -35,13 +35,13 @@
     justify-content: center;
 }
 /************************/
-.badge-avatar{
+.avatar-badge{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.online-badge{
+.avatar-online-badge{
     position: absolute;
     background-color:green;
     border-radius:50%;
@@ -52,7 +52,7 @@
     right:1rem;
     
 }
-.offline-badge{
+.avatar-offline-badge{
     position: absolute;
     background-color:red;
     border-radius:50%;
