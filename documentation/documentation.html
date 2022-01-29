@@ -63,6 +63,7 @@
         </div>
         <!-----------------main------------------------->
         <div id="documentation-main">
+            <!---------------------card---------------->
             <div class="card">
                 <div class="comp-intro">
                     <h1 class="main-h1">Cards</h1>
@@ -71,7 +72,240 @@
                         headers and footers, a wide variety of content, contextual background colors, and powerful
                         display options.</p>
                 </div>
+                <h2 class="main-h2">Example of vertical cards</h2>
+                <p class="doc-p">
+                    Vertical cards are available in 3 types- Basic card, Basic card with header, Blog card.
+                    <br>
+                    To use this card just use class <span class="prime-color-text">basic-card</span> along with classes
+                    to style the card like
+                    <span class="prime-color-text">card-body, card-footer, card-btn, card-title, card-content</span>.
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        card-title:
+                    </code>
+                    For card title
+                    <br>
+                    <code class="main-code">
+                        card-subtext:
+                    </code>
+                    For card title subtext
+                    <br>
+                    <code class="main-code">
+                        card-content: 
+                    </code>
+                    For card content
+                    <br>
+                    <code class="main-code">
+                        card-icon:
+                    </code>
+                    For card footer icons
+                    <br>
+                    <code class="main-code">
+                        header-text:
+                    </code>
+                    For card with header's header section.
+                    <br>
+                    <br>
+                    You can copy html part from below code snippet.
+
+                </p>
+                <div class="comp-container">
+                    <!---------------basic card--------------->
+                    <div class="basic-card">
+                        <img src="../components/cards/images/cardimg.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Sample Card</h4>
+                            <span class="card-subtext">By Anshika Agarwal</span>
+                            <p class="card-content">Visit ten places on our planet that are undergoing the biggest
+                                changes
+                                today.</p>
+                            <div class="card-footer">
+                                <button class="card-btn">Read</button>
+                                <button class="card-btn">Bookmark</button>
+                                <div class="connect-part">
+                                    <i class="far fa-heart card-icon"></i>
+                                    <i class="fas fa-share-alt card-icon"></i>
+                                    <i class="fas fa-ellipsis-v card-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---------------basic-card with header--------------------->
+                    <div class="basic-card">
+                        <div class="header-text">
+                            <h4 class="card-title">Sample Card</h4>
+                            <span class="card-subtext">By Anshika Agarwal</span>
+                        </div>
+                        <img src="../components/cards/images/cardimg.jpg">
+                        <div class="card-body">
+                            <p class="card-content">Visit ten places on our planet that are undergoing the biggest
+                                changes today.</p>
+                            <div class="card-footer">
+                                <button class="card-btn">Read</button>
+                                <button class="card-btn">Bookmark</button>
+                                <div class="connect-part">
+                                    <i class="far fa-heart card-icon"></i>
+                                    <i class="fas fa-share-alt card-icon"></i>
+                                    <i class="fas fa-ellipsis-v card-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------>
+                <div class="code-snippet">
+                    <iframe src="https://carbon.now.sh/embed/sZsUolYBigWwxcZwHesa"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="main-h2">Example of Overlay text cards</h2>
+                <p class="doc-p">
+                    Overlay text cards allows you to add title and subtitle of your card over the image.
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        card-overlay-container: 
+                    </code>
+                    Use it to nest your card image inside it.
+                    <br>
+                    <code class="main-code">
+                        card-overlay-text: 
+                    </code>
+                    Use it to nest the text to be overlayed on image.
+
+                    <br>
+                    <br>
+                    You can copy html part from below code snippet.
+                </p>
+                <!----------------------overlay card-------------------------------->
+                <div class="comp-container">
+                    <div class="basic-card">
+                        <div class="card-overlay-container">
+                            <img src="../components/cards/images/cardimg.jpg">
+                            <div class="card-overlay-text">
+                                <h4 class="card-title">Sample Card</h4>
+                                <span class="card-subtext">By Anshika Agarwal</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-content">Visit ten places on our planet that are undergoing the biggest
+                                changes
+                                today.</p>
+                            <div class="card-footer">
+                                <button class="card-btn">Read</button>
+                                <button class="card-btn">Bookmark</button>
+                                <div class="connect-part">
+                                    <i class="far fa-heart card-icon"></i>
+                                    <i class="fas fa-share-alt card-icon"></i>
+                                    <i class="fas fa-ellipsis-v card-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="code-snippet">
+                    <iframe src="https://carbon.now.sh/embed/sZsUolYBigWwxcZwHesa"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <h2 class="main-h2">Example of Horizontal small card</h2>
+                <p class="doc-p">
+                    These are small horizontal cards.
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        card-header: 
+                    </code>
+                    Use it to nest your image, title and content.
+                    <br>
+                    <code class="main-code">
+                        card-img-header: 
+                    </code>
+                    give this class to your image in card.
+                    <br>
+                    <br>
+                    You can copy html part from below code snippet.
+                </p>
+
+                <div class="comp-container">
+                    <!--------------------horizontal image and text---------------------------------------->
+
+                    <div class="basic-card">
+                        <div class="card-header">
+                            <img class="card-img-header" src="../components/cards/images/cardimg.jpg">
+                            <div class="header-text">
+                                <h4 class="card-title">Sample Card</h4>
+                                <span class="card-subtext">By Anshika Agarwal</span>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <button class="card-btn">Read</button>
+                            <button class="card-btn">Bookmark</button>
+                            <div class="connect-part">
+                                <i class="far fa-heart card-icon"></i>
+                                <i class="fas fa-share-alt card-icon"></i>
+                                <i class="fas fa-ellipsis-v card-icon"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!--------------------Basic no-image small card---------------------------------------->
+                    <div class="basic-card">
+                        <div class="card-header">
+                            <div class="header-text">
+                                <h4 class="card-title">Sample Card</h4>
+                                <span class="card-subtext">By Anshika Agarwal</span>
+                                <p class="card-content">Visit ten places on our planet that are undergoing the biggest
+                                    changes today.</p>
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <button class="card-btn">Read</button>
+                            <button class="card-btn">Bookmark</button>
+                            <div class="connect-part">
+                                <i class="far fa-heart card-icon"></i>
+                                <i class="fas fa-share-alt card-icon"></i>
+                                <i class="fas fa-ellipsis-v card-icon"></i>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="code-snippet">
+                    <iframe src="https://carbon.now.sh/embed/sZsUolYBigWwxcZwHesa"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+
             </div>
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
         <div class="footer">

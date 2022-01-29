@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+.basic-card{
+    width:30rem;
+    background-color: var(--bg-color);
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+	
+}
+img{
+    height: 55%;
+    width: 100%;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.card-body{
+    padding : 1rem 0.5rem 0.5rem 0.5rem;  
+}
+.card-title{
+    font-size:2rem;
+    margin-bottom: 5px;
+}
+.card-subtext{
+    color:rgb(128, 128, 128);
+    padding: .7rem 0;
+    font-size:1.3rem;
+}
+
+.card-content{
+    color:rgba(128, 128, 128,0.7);
+    padding: .5rem 0;
+    font-size:1rem;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.card-btn{
+    padding: 1.3rem;
+    color:var(--primary-color);
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    background-color:var(--bg-color);
+    text-align: center;
+    border-radius: .5rem;
+}
+.card-btn:hover{
+    background-color:rgb(211, 211, 211,0.2);
+}
+.connect-part{
+    margin-left:auto;
+}
+.card-icon{
+    padding:1.2rem;
+    color: grey;
+}
+/*----------------------------------------------------------------*/
+
+/*  
+basic card with text over media
+*/
+.card-overlay-container{
+    position: relative;
+}
+.card-overlay-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom:.8rem;
+    left:.8rem;
+    background-color:transparent;
+    color:var(--bg-color);
+}
+
+.card-overlay-text span{
+    color: var(--bg-color) ;
+}
+
+/*----------------------------------------------------------------*/
+
+/*  
+basic with header
+*/
+.header-text{
+    padding : 1rem 0.5rem 0.5rem 0.5rem;  
+}
+
+/*----------------------------------------------------------------*/
+/*
+horizontal image and text
+*/
+.card-header{
+    display: flex;
+    margin-bottom:1rem;
+}
+.card-img-header{
+    width: 40%;
+}
+
+/*----------------------------------------------------------------*/
+
+

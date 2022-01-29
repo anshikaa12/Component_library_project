@@ -1,9 +1,12 @@
 .side-bar{
     grid-area: sidebar;
     padding:3rem 2rem;
-    border-right: 1px solid black;
    overflow: auto;
+   height: 90vh;
    position:sticky;
+   top:0rem;
+   box-shadow:0 4px 12px 0 rgb(0 0 0 / 5%);
+   
 }
 
 .sidebar-list{
