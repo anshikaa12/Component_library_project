@@ -36,3 +36,8 @@
     width:100%;
     border:none;
 }
+/***************/
+.button{
+    display: flex;
+    flex-direction: column;
+}

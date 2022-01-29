@@ -9,6 +9,7 @@ html{
 --bg-color:white;
 --alt-text-color: #3E4152;
 --complement-btn-text-color: white;
+--secondary-color: #0c080c;
 }
 body{
     padding:0;
