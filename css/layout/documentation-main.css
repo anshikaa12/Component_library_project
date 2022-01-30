@@ -19,6 +19,7 @@
     flex-direction:row;
     gap:2rem;
     align-items:center;
+    flex-wrap: wrap;
 }
 .main-code{
     color:var(--primary-color);
@@ -40,4 +41,9 @@
 .button{
     display: flex;
     flex-direction: column;
+}
+/***************/
+.avatar{
+    display: flex;
+    flex-direction:column;
 }
