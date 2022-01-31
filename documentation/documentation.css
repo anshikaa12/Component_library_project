@@ -11,6 +11,7 @@
 @import url('../components/buttons/button.css');
 @import url('../components/avatars/avatar.css');
 @import url('../components/badges/badge.css');
+@import url('../components/alerts/alert.css');
 @import url('../css/layout/documentation-footer.css');
 
 .documentation-page{
