@@ -7,21 +7,20 @@
 @import url('../css/layout/nav.css');
 @import url('../css/layout/documentation-main.css');
 @import url('../css/layout/content.css');
-@import url('../css/layout/footer.css');
 @import url('../components/cards/basic.css');
 @import url('../components/buttons/button.css');
 @import url('../components/avatars/avatar.css');
-
-
+@import url('../components/badges/badge.css');
+@import url('../css/layout/documentation-footer.css');
 
 .documentation-page{
     display:grid;
     grid-template-columns: 0.7fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 5fr 0.3fr;
     grid-template-areas: "nav nav nav nav"
                 "sidebar main main main"
-                "footer footer footer footer";
-
+                "sidebar main main main"
+                "sidebar main main main";
+margin-bottom: 2rem;
 
 }
 

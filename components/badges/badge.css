@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+
+
+
+.badge-container{
+position: relative;
+}
+
+.online-img-badge{
+    background-color:rgb(38, 207, 38);
+    border-radius:50%;
+    border:0.3rem solid white;
+    position: absolute;
+
+}
+.offline-img-badge{
+    background-color:red;
+    border-radius:50%;
+    border:0.3rem solid white;
+    position: absolute;
+}
+.badge-container .avatar-big ~ .online-img-badge {
+height: 2rem;
+width: 2rem;
+bottom:1rem;
+right:0rem;
+}
+
+.badge-container .avatar-mid ~ .online-img-badge{
+height: 1.3rem;
+width: 1.3rem;
+bottom:0rem;
+right:0.1rem;
+}
+.badge-container .avatar-small ~ .online-img-badge{
+height: 0.6rem;
+width: 0.6rem;
+bottom:0rem;
+right:0rem;
+}
+/**************************/
+.badge-container .avatar-big ~ .offline-img-badge {
+    height: 2rem;
+    width: 2rem;
+    bottom:1rem;
+    right:0rem;
+    }
+    
+    .badge-container .avatar-mid ~ .offline-img-badge{
+    height: 1.3rem;
+    width: 1.3rem;
+    bottom:0rem;
+    right:0.1rem;
+    }
+    .badge-container .avatar-small ~ .offline-img-badge{
+    height: 0.6rem;
+    width: 0.6rem;
+    bottom:0rem;
+    right:0rem;
+    }
+
+/**************************/
+.icon-text-badge , .icon-alert-badge{
+    position:absolute;
+    height:1.7rem;
+    width: 1.7rem;
+    background-color: rgb(182, 86, 86);
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size:1rem;
+    color:white;
+}
+
+.badge-container i ~ .icon-text-badge{
+    top:0.8rem;
+    right:0.2rem;
+}
+.badge-container i ~ .icon-alert-badge{
+    top:0.8rem;
+    right:0.2rem;
+}
+
+
+
+
+
+
+
+
