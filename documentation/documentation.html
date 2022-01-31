@@ -48,11 +48,11 @@
         <div class="side-bar">
             <h3 class="main-h3">Components</h3>
             <ul class="sidebar-list">
-                <li class="componentList side-list-text">cards</li>
-                <li class="componentList side-list-text">buttons</li>
+                <li class="componentList side-list-text">Cards</li>
+                <li class="componentList side-list-text">Buttons</li>
                 <li class="componentList side-list-text">Avatars</li>
                 <li class="componentList side-list-text">Badges</li>
-                <li class="componentList side-list-text">badges</li>
+                <li class="componentList side-list-text">Alerts</li>
                 <li class="componentList side-list-text">dialogs</li>
                 <li class="componentList side-list-text">input</li>
                 <li class="componentList side-list-text">chips</li>
@@ -741,6 +741,145 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
+            </div>
+            <!-----------------------alerts----------------------->
+            <div class="alert">
+                <div class="comp-intro">
+                    <h1 class="main-h1">Alerts</h1>
+                    <p class="main-p weight-mid">Provide contextual feedback messages for typical user actions with the
+                        handful of available and flexible alert messages.</p>
+                </div>
+                <h2 class="main-h2">Example of Standard Alerts</h2>
+                <p class="doc-p">
+                    Alerts are available in 5 types- Primary alert, Secondary alert, Accent alert, Success alert,
+                    Failure alert.
+                    <br>
+                    To use these Alerts use classes <span class="prime-color-text">alert-container</span> along with
+                    classes
+                    to style the alerts like
+                    <span class="prime-color-text">primary-alert, secondary-alert, accent-alert, success-alert,
+                        fail-alert</span>.
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        alert-container:
+                    </code>
+                    For sizing of alert
+                    <br>
+                    <code class="main-code">
+                        primary-alert:
+                    </code>
+                    For Primary color alert
+                    <br>
+                    <code class="main-code">
+                        secondary-alert:
+                    </code>
+                    For secondary color alert.
+                    <br>
+                    <code class="main-code">
+                        accent-alert:
+                    </code>
+                    For accent color alert.
+                    <br>
+                    <code class="main-code">
+                        success-alert:
+                    </code>
+                    For green color alert.
+                    <br>
+                    <code class="main-code">
+                        fail-alert:
+                    </code>
+                    For red color alert.
+                    <br>
+                    <br>
+                    You can copy html part from below code snippet.
+
+                </p>
+                <div class="comp-container">
+                    <div class="alert-container primary-alert">A primary alert example</div>
+                    <div class="alert-container secondary-alert">A secondary alert example</div>
+                    <div class="alert-container accent-alert">A accent alert example</div>
+                    <div class="alert-container success-alert">A success alert example</div>
+                    <div class="alert-container fail-alert">A fail alert example</div>
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=850&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2520primary-alert%2522%253EA%2520primary%2520alert%2520example%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2520secondary-alert%2522%253EA%2520secondary%2520alert%2520example%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2520accent-alert%2522%253EA%2520accent%2520alert%2520example%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2520success-alert%2522%253EA%2520success%2520alert%2520example%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2520fail-alert%2522%253EA%2520fail%2520alert%2520example%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Example of Standard Alerts with Close button</h2>
+                <p class="doc-p">
+                    You can have a close button at the extreeme end of alert for dismissing the alert.
+                    <br>
+                    To use these Alerts use class <span class="prime-color-text">alert-close</span>
+                    <br>
+                    Also add onclick property to icon = closeAlert().
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        alert-close:
+                    </code>
+                    To dismiss the alert.
+                    <br>
+                    <br>
+                    You can copy html and JS part from below code snippet.
+                </p>
+                <div class="comp-container">
+                    <div class="flex-row alert-container primary-alert" id="alert-close-example">
+                        A primary alert example
+                        <div class="alert-close"><i class="fas fa-times" onclick="closeAlert()"></i></div>
+                    </div>
+
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=742.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex-row%2520alert-container%2520primary-alert%2522%2520id%253D%2522alert-close-example%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520A%2520primary%2520alert%2520example%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%2520onclick%253D%2522closeAlert%28%29%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <p class="doc-p">Javascript:</p>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=776.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520let%2520prime%2520%253D%2520document.getElementById%28%2522alert-close-example%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520closeAlert%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520prime.classList.add%28%2522hide-alert%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520console.log%28%2522s%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257D%250A"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Live Demo</h2>
+                <p class="doc-p">
+                    This is a live demo of how to have an alert on your page.Click on the button to pop up the alert.
+                    <br>
+                </p>
+                <div class="comp-container flex-column">
+                    <div class="alert-container success-alert flex-row hide-alert" id="DemoAlert">Nice! You triggered
+                        this alert!
+                        <div class="alert-close"><i class="fas fa-times" onclick="closeDemoAlert()"></i></div>
+                    </div>
+                    <button class=" btn btn-accent" onclick="showAlert()">Demo</button>
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=742.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-container%2520success-alert%2520flex-row%2520hide-alert%2522%2520id%253D%2522DemoAlert%2522%253ENice%21%2520You%2520triggered%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520this%2520alert%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-close%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%2520onclick%253D%2522closeDemoAlert%28%29%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522%2520btn%2520btn-accent%2522%2520onclick%253D%2522showAlert%28%29%2522%253EDemo%253C%252Fbutton%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <p class="doc-p">
+                    Javascript:
+                </p>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=742.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=let%2520demo%2520%253D%2520document.getElementById%28%2522DemoAlert%2522%29%253B%250AshowAlert%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520demo.classList.remove%28%2522hide-alert%2522%29%253B%250A%257D%250AcloseDemoAlert%2520%253D%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520demo.classList.add%28%2522hide-alert%2522%29%253B%250A%257D"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+
 
 
 
@@ -751,12 +890,24 @@
 
 
             </div>
-
         </div>
+
+
+
+
+
+
+
+
+
+
     </div>
     <div class="doc-footer">
         footer
     </div>
+
+
+    <script src="../components/alerts/alert.js"></script>
 
 </body>
 

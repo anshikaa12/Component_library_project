@@ -1,0 +1,39 @@
+
+.alert-container{
+    padding:1.5rem ;
+    border-radius: 0.5rem;
+    width:100%;
+    font-size: 2rem;
+}
+
+.primary-alert{
+    background-color: var(--primary-color);
+    color:var(--complement-btn-text-color);
+}
+
+.secondary-alert{
+    background-color: var(--secondary-color);
+    color:var(--complement-btn-text-color);
+}
+.accent-alert{
+    background-color: var(--accent-color);
+    color:var(--complement-btn-text-color);
+}
+.success-alert{
+    background-color: #84F1C9;
+    color:#059862;
+}
+.fail-alert{
+    background-color: #FCC5C5;
+    color:rgb(160, 34, 34);
+}
+/***************************************/
+.hide-alert{
+    display:none;
+}
+.show-alert{
+    display:block;
+}
+.alert-close{
+    margin-left:auto;
+}
