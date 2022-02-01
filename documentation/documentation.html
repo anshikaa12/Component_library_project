@@ -54,7 +54,7 @@
                 <li class="componentList side-list-text">Badges</li>
                 <li class="componentList side-list-text">Alerts</li>
                 <li class="componentList side-list-text">Images</li>
-                <li class="componentList side-list-text">input</li>
+                <li class="componentList side-list-text">Input</li>
                 <li class="componentList side-list-text">chips</li>
                 <li class="componentList side-list-text">snackbar</li>
                 <li class="componentList side-list-text">image</li>
@@ -914,10 +914,148 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-
-
             </div>
+            <!-------------------------Input---------------------------->
+            <div class="input">
+                <div class="comp-intro">
+                    <h1 class="main-h1">Inputs</h1>
+                    <p class="main-p weight-mid">The Input component is a component that is used to get user input in a
+                        text field.</p>
+                </div>
+                <h2 class="main-h2">Example of Basic Inputs</h2>
+                <p class="doc-p">Basic input fields can be achieved by using class <span
+                        class="prime-color-text">.input-box</span>.
+                </p>
+                <div class="comp-container">
+                    <input type="text" class="input-box">
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=438.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2522%253E%257D"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
 
+                <h2 class="main-h2">Changing the sizes of input</h2>
+                <p class="doc-p">The Input component comes in 3 sizes. The default is md.
+                    <br>
+
+                    <br>
+                    <code class="main-code">
+                        input-s:
+                    </code>
+                    Small input field.
+                    <br>
+                    <code class="main-code">
+                     input-md:
+                     </code>
+                    Medium size input field.
+                    <br>
+                    <code class="main-code">
+                      input-lg:
+                     </code>
+                    large input size.
+                    <br>
+                    <br>
+                    You can copy html part from below code snippet.
+                    <br>
+
+                </p>
+                <div class="comp-container">
+                    <input type="text" class="input-box input-s">
+                    <input type="text" class="input-box input-md">
+                    <input type="text" class="input-box input-lg">
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=605.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-box%2520input-lg%2522%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Changing the appearance of inputs</h2>
+                <p class="doc-p">The Input component comes in 3 variants: <span
+                        class="prime-color-text">all-border-input, bottom-border-input, no-border-input</span>.
+
+                    <br>
+                    You can copy html part from below code snippet.
+                    <br>
+
+                </p>
+                <div class="comp-container">
+                    <input type="text" class="input-md all-border-input">
+                    <input type="text" class="input-md bottom-border-input">
+                    <input type="text" placeholder="no-border-input" class="input-md no-border-input">
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=755&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-md%2520all-border-input%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-md%2520bottom-border-input%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522no-border-input%2522%2520class%253D%2522input-md%2520no-border-%2520%2520%2520input%2522%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Example of Input Validation</h2>
+                <p class="doc-p">The Input component can also have validation boxes. There are 2 variations: <span
+                        class="prime-color-text">Valid Input, Invalid Input</span>.
+
+                    <br>
+
+                    <br>
+                    <code class="main-code">
+                            input-valid:
+                        </code>
+                    Green Input field.
+                    <br>
+                    <code class="main-code">
+                         input-invalid:
+                         </code>
+                    Red Input field .
+                    <br>
+                    <code class="main-code">
+                          invalid-input-err:
+                         </code>
+                    error message.
+                    <br>
+                    <br>
+                    You can copy html part from below code snippet.
+                    <br>
+
+                </p>
+                <div class="comp-container">
+                    <input type="text" class="input-md all-border-input valid-input">
+                    <div>
+                        <input type="text" class="input-md all-border-input invalid-input">
+                        <div class="invalid-input-err">Invalid Input!</div>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=755&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-md%2520all-border-input%2520valid-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-md%2520all-border-input%2520invalid-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522invalid-input-err%2522%253EInvalid%2520Input%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Example of text area</h2>
+                <p class="doc-p">Text areas are commonly used in forms. Use class <span
+                        class="prime-color-text">input-text-area</span> to style the text area.
+
+                    <br>
+                    You can copy html part from below code snippet.
+                    <br>
+
+                </p>
+                <div class="comp-container">
+                    <textarea class="input-text-area"></textarea>
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=755&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Ctextarea%2520class%253D%2522input-text-area%2522%253E%253C%252Ftextarea%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
 
 
 
