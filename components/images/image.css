@@ -1,0 +1,10 @@
+.img-fluid-resp{
+    height:auto;
+    width:100%;
+}
+
+.round-img{
+    border-radius:50%;
+    height:20rem;
+    width:20rem;
+}
