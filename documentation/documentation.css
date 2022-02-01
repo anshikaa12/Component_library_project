@@ -13,6 +13,7 @@
 @import url('../components/badges/badge.css');
 @import url('../components/alerts/alert.css');
 @import url('../components/images/image.css');
+@import url('../components/inputs/input.css');
 @import url('../css/layout/documentation-footer.css');
 
 .documentation-page{

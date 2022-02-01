@@ -1,0 +1,86 @@
+input{
+    outline:none;
+    border:none;
+    background-color:var(--bg-color);
+    position:relative;
+}
+
+.input-box{
+    
+    border:1px solid var(--text-color);
+    padding:1rem;
+    border-radius:5px;
+    width:100%;
+    font-size:1.6rem;
+}
+.input-box:focus{
+    border:1.5px solid var(--primary-color);
+}
+/******************/
+.input-s{
+    padding:0.5rem;
+    font-size:1.2rem;
+}
+.input-md{
+    padding:1rem;
+    font-size:1.6rem;
+}
+.input-lg{
+padding:1.8rem;
+font-size:2rem;
+}
+/*************************/
+.all-border-input{
+    border:1px solid var(--text-color);
+    border-radius:5px;
+    width:100%;
+}
+.all-border-input:focus{
+    border:2px solid var(--primary-color);
+}
+.bottom-border-input{
+    border-bottom:1px solid var(--text-color);
+    width:100%;
+}
+.bottom-border-input:focus{
+    border-bottom:2px solid var(--primary-color);
+}
+.no-border-input{
+    border:none;
+}
+/******************/
+.valid-input{
+    background-color: rgb(132, 241, 201,0.5);
+    color:#059862;
+    border: 1px solid #059862;
+}
+.valid-input:focus{
+    border: 2px solid #059862;
+}
+
+.invalid-input{
+    background-color: #FCC5C5;
+    color:rgb(160, 34, 34);
+}
+.invalid-input:focus{
+    border: 2px solid rgb(160, 34, 34);
+}
+.invalid-input-err{
+    margin-top:5px;
+    font-size:1.6rem;
+    color:rgb(160, 34, 34);
+}
+/**********/
+.input-text-area{
+    border:1px solid var(--text-color);
+    padding:1rem;
+    width: 100%;
+    min-height:5rem;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 1.6rem;
+    border: 2px solid #ccc;
+}
+.input-text-area:focus{
+    border:1.5px solid var(--primary-color);
+}
