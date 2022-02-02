@@ -48,23 +48,23 @@
         <div class="side-bar">
             <h3 class="main-h3">Components</h3>
             <ul class="sidebar-list">
-                <li class="componentList side-list-text">Cards</li>
-                <li class="componentList side-list-text">Buttons</li>
-                <li class="componentList side-list-text">Avatars</li>
-                <li class="componentList side-list-text">Badges</li>
-                <li class="componentList side-list-text">Alerts</li>
-                <li class="componentList side-list-text">Images</li>
-                <li class="componentList side-list-text">Input</li>
-                <li class="componentList side-list-text">chips</li>
-                <li class="componentList side-list-text">snackbar</li>
-                <li class="componentList side-list-text">image</li>
-                <li class="componentList side-list-text">avatar</li>
+                <a href="#card"><li class="componentList side-list-text">Cards</li></a>
+                <a href="#button" ><li class="componentList side-list-text">Buttons</li></a>
+                <a href="#avatar" ><li class="componentList side-list-text">Avatars</li></a>
+                <a href="#badge" ><li class="componentList side-list-text">Badges</li></a>
+                <a href="#alert" ><li class="componentList side-list-text">Alerts</li></a>
+                <a href="#image" ><li class="componentList side-list-text">Images</li></a>
+                <a href="#input" ><li class="componentList side-list-text">Input</li></a>
+                <a href="#typography" ><li class="componentList side-list-text">Typography</li></a>
+                <a href="" ><li class="componentList side-list-text">snackbar</li></a>
+                <a href="" ><li class="componentList side-list-text">image</li></a>
+                <a href="" ><li class="componentList side-list-text">avatar</li></a>
             </ul>
         </div>
         <!-----------------main------------------------->
         <div id="documentation-main">
             <!---------------------card---------------->
-            <div class="card">
+            <div id="card">
                 <div class="comp-intro">
                     <h1 class="main-h1">Cards</h1>
                     <p class="main-p weight-mid">A card is a flexible and extensible content container. It includes
@@ -92,7 +92,7 @@
                     For card title subtext
                     <br>
                     <code class="main-code">
-                        card-content: 
+                        card-content:
                     </code>
                     For card content
                     <br>
@@ -110,7 +110,7 @@
                     You can copy html part from below code snippet.
 
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <!---------------basic card--------------->
                     <div class="basic-card">
                         <img src="../components/cards/images/cardimg.jpg" class="card-img">
@@ -167,12 +167,12 @@
                     <br>
                     <br>
                     <code class="main-code">
-                        card-overlay-container: 
+                        card-overlay-container:
                     </code>
                     Use it to nest your card image inside it.
                     <br>
                     <code class="main-code">
-                        card-overlay-text: 
+                        card-overlay-text:
                     </code>
                     Use it to nest the text to be overlayed on image.
 
@@ -181,7 +181,7 @@
                     You can copy html part from below code snippet.
                 </p>
                 <!----------------------overlay card-------------------------------->
-                <div class="comp-container">
+                <div class="comp-container ">
                     <div class="basic-card">
                         <div class="card-overlay-container">
                             <img src="../components/cards/images/cardimg.jpg" class="card-img">
@@ -210,7 +210,7 @@
 
                 <div class="code-snippet">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=768.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522comp-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcomponents%252Fcards%252Fimages%252Fcardimg.jpg%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253ESample%2520Card%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-subtext%2522%253EBy%2520Anshika%2520Agarwal%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520that%2520are%2520undergoing%2520the%2520biggest%2520change%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522connect-part%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=768.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522comp-container %2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522basic-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fcomponents%252Fcards%252Fimages%252Fcardimg.jpg%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522card-title%2522%253ESample%2520Card%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-subtext%2522%253EBy%2520Anshika%2520Agarwal%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520that%2520are%2520undergoing%2520the%2520biggest%2520change%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522connect-part%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
                         style="border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
@@ -222,12 +222,12 @@
                     <br>
                     <br>
                     <code class="main-code">
-                        card-header: 
+                        card-header:
                     </code>
                     Use it to nest your image, title and content.
                     <br>
                     <code class="main-code">
-                        card-img-header: 
+                        card-img-header:
                     </code>
                     give this class to your image in card.
                     <br>
@@ -235,7 +235,7 @@
                     You can copy html part from below code snippet.
                 </p>
 
-                <div class="comp-container">
+                <div class="comp-container ">
                     <!--------------------horizontal image and text---------------------------------------->
 
                     <div class="basic-card">
@@ -309,41 +309,41 @@
                     <br>
                     <br>
                     <code class="main-code">
-                         e-basic-card: 
-                       </code>
+                        e-basic-card:
+                    </code>
                     For card container.
                     <br>
                     <code class="main-code">
-                      e-card-img: 
-                        </code>
+                        e-card-img:
+                    </code>
                     For e-card image.
                     <br>
                     <code class="main-code">
-                    e-card-footer: 
-                </code>
+                        e-card-footer:
+                    </code>
                     For e-card footer.
 
                     <br>
                     <code class="main-code">
-                        e-card-subtext: 
+                        e-card-subtext:
                     </code>
                     For e-card subtext.
                     <br>
                     <code class="main-code">
-                            e-card-badge: 
-                        </code>
+                        e-card-badge:
+                    </code>
                     To add a badge on the e-card.
                     <br>
                     <code class="main-code">
-                                e-card-dismiss: 
-                            </code>
+                        e-card-dismiss:
+                    </code>
                     For e-card with a close button.
 
                     <br>
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container flex-row">
                     <!----------------------------------e-card--------------------->
                     <div class="e-basic-card">
                         <img src="../components/cards/images/iphoneimg.jpg" alt="" class="e-card-img">
@@ -434,14 +434,14 @@
                     <br>
                     <br>
                     <code class="main-code">
-                        overlay-card: 
+                        overlay-card:
                     </code>
                     To add the overlay effect.
                     <br>
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <div class="e-basic-card">
                         <div class="overlay-card">
                             <div>OUT OF STOCK</div>
@@ -466,7 +466,7 @@
             </div>
 
             <!---------------------button---------------------->
-            <div class="button">
+            <div id="button">
                 <div class="comp-intro">
                     <h1 class="main-h1">Buttons</h1>
                     <p class="main-p weight-mid">Use PixelUI's custom button styles for actions in forms, dialogs, and
@@ -505,7 +505,7 @@
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <button class="btn btn-primary">Primary-btn</button>
                     <button class="btn btn-secondary">Secondary-btn</button>
                     <button class="btn btn-accent">Accent-btn</button>
@@ -526,17 +526,17 @@
                     <br>
                     <br>
                     <code class="main-code">
-                     btn-primary-outline:
+                        btn-primary-outline:
                     </code>
                     To make a Outline button of primary color.
                     <br>
                     <code class="main-code">
-                      btn-secondary-outline:
+                        btn-secondary-outline:
                     </code>
                     To make a secondary color Outline button.
                     <br>
                     <code class="main-code">
-                     btn-accent-outline:
+                        btn-accent-outline:
                     </code>
                     To make a accent color Outline button.
                     <br>
@@ -544,7 +544,7 @@
                     You can copy html part from below code snippet.
 
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <button class="btn btn-primary-outline">Primary</button>
                     <button class="btn btn-secondary-outline">Secondary</button>
                     <button class="btn btn-accent-outline">Accent</button>
@@ -562,24 +562,24 @@
                     <br>
                     <br>
                     <code class="main-code">
-                            large-btn:
-                        </code>
+                        large-btn:
+                    </code>
                     For large size button.
                     <br>
                     <code class="main-code">
-                            mid-btn:
-                        </code>
+                        mid-btn:
+                    </code>
                     For mid size button.
                     <br>
                     <code class="main-code">
-                            small-btn:
-                        </code>
+                        small-btn:
+                    </code>
                     For small size button.
                     <br>
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <button class="large-btn btn-primary">
                         large-btn
                     </button>
@@ -619,7 +619,7 @@
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <button class="btn floating-btn">+</button>
                     <button class="btn extended-btn">Extended</button>
                 </div>
@@ -636,15 +636,15 @@
                     <br>
                     <br>
                     <code class="main-code">
-                            link-btn:
-                        </code>
+                        link-btn:
+                    </code>
                     For creating link buttons.
                     <br>
                     <br>
                     You can copy html part from below code snippet.
                 </p>
 
-                <div class="comp-container">
+                <div class="comp-container ">
                     <a href="#" class="btn btn-primary link-btn">Link-btn</a>
                     <a href="#" class="btn btn-accent link-btn">Link-btn</a>
                 </div>
@@ -657,7 +657,7 @@
                 </div>
             </div>
 
-            <div class="avatar">
+            <div id="avatar">
                 <div class="comp-intro">
                     <h1 class="main-h1">Avatars</h1>
                     <p class="doc-p">Avatars are found throughout material design with uses in everything from tables to
@@ -682,7 +682,7 @@
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <img src="../components/avatars/images/avatar.png" class="avatar-circle avatar-big">
                     <div class="avatar-circle avatar-big">AT</div>
                     <div class="avatar-circle avatar-big"> <i class="fas fa-camera"></i></div>
@@ -706,7 +706,7 @@
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <img src="../components/avatars/images/avatar.png" class="avatar-circle avatar-big">
                     <div class="avatar-circle avatar-mid">B</div>
                     <div class="avatar-circle avatar-small big"> <i class="fas fa-star"></i></div>
@@ -730,7 +730,7 @@
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <img src="../components/avatars/images/avatar.png" class="avatar-box avatar-big">
                     <div class="avatar-box avatar-mid">T</div>
                     <div class="avatar-box avatar-small big"> <i class="fas fa-file"></i></div>
@@ -772,7 +772,7 @@
                     <br>
                     You can copy html part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <div class="avatar-badge"> <img src="../components/avatars/images/avatar.png"
                             class="avatar-circle  avatar-big">
                         <span class="avatar-online-badge"></span>
@@ -793,7 +793,7 @@
 
             </div>
 
-            <div class="badge">
+            <div id="badge">
                 <div class="comp-intro">
                     <h1 class="main-h1">Badges</h1>
                     <p class="main-p weight-mid">Documentation and examples for badges, our small count and labeling
@@ -828,7 +828,7 @@
                     You can copy html part from below code snippet.
 
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <div class="badge-container">
                         <img src="../components/avatars/images/avatar.png" class="avatar-circle avatar-big">
                         <div class="online-img-badge"></div>
@@ -877,7 +877,7 @@
                     For the parent div
                     <br>
                     <code class="main-code">
-                       icon-text-badge:
+                        icon-text-badge:
                     </code>
                     For number of notifications.
                     <br>
@@ -890,7 +890,7 @@
                     You can copy html part from below code snippet.
 
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <div class="badge-container">
                         <i class="fas fa-home main-h4 "> </i>
                         <div class="icon-text-badge">5</div>
@@ -914,7 +914,7 @@
                 </div>
             </div>
             <!-----------------------alerts----------------------->
-            <div class="alert">
+            <div id="alert">
                 <div class="comp-intro">
                     <h1 class="main-h1">Alerts</h1>
                     <p class="main-p weight-mid">Provide contextual feedback messages for typical user actions with the
@@ -966,7 +966,7 @@
                     You can copy html part from below code snippet.
 
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <div class="alert-container primary-alert">A primary alert example</div>
                     <div class="alert-container secondary-alert">A secondary alert example</div>
                     <div class="alert-container accent-alert">A accent alert example</div>
@@ -997,7 +997,7 @@
                     <br>
                     You can copy html and JS part from below code snippet.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <div class="flex-row alert-container primary-alert" id="alert-close-example">
                         A primary alert example
                         <div class="alert-close"><i class="fas fa-times" onclick="closeAlert()"></i></div>
@@ -1024,7 +1024,7 @@
                     This is a live demo of how to have an alert on your page.Click on the button to pop up the alert.
                     <br>
                 </p>
-                <div class="comp-container flex-column">
+                <div class="comp-container  flex-column">
                     <div class="alert-container success-alert flex-row hide-alert" id="DemoAlert">Nice! You triggered
                         this alert!
                         <div class="alert-close"><i class="fas fa-times" onclick="closeDemoAlert()"></i></div>
@@ -1050,7 +1050,7 @@
                 </div>
             </div>
             <!-------------------Images---------------------->
-            <div class="Images">
+            <div id="image">
                 <div class="comp-intro">
                     <h1 class="main-h1">Images</h1>
                     <p class="main-p weight-mid">Documentation and examples for opting images into responsive behavior
@@ -1061,7 +1061,7 @@
                     This applies max-width: 100%; and height: auto; to the image so that it scales with the parent
                     width.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <img src="../components/images/images/backimg.jpg" class="img-fluid-resp">
                 </div>
                 <div class="code-snippet">
@@ -1075,7 +1075,7 @@
                 <h2 class="main-h2">Example of Round Responsive Images</h2>
                 <p class="doc-p">Images are made round responsive with <span class="prime-color-text">.round-img</span>.
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <img src="../components/images/images/backimg.jpg" class="round-img">
                 </div>
                 <div class="code-snippet">
@@ -1087,7 +1087,7 @@
                 </div>
             </div>
             <!-------------------------Input---------------------------->
-            <div class="input">
+            <div id="input">
                 <div class="comp-intro">
                     <h1 class="main-h1">Inputs</h1>
                     <p class="main-p weight-mid">The Input component is a component that is used to get user input in a
@@ -1119,13 +1119,13 @@
                     Small input field.
                     <br>
                     <code class="main-code">
-                     input-md:
-                     </code>
+                        input-md:
+                    </code>
                     Medium size input field.
                     <br>
                     <code class="main-code">
-                      input-lg:
-                     </code>
+                        input-lg:
+                    </code>
                     large input size.
                     <br>
                     <br>
@@ -1169,29 +1169,26 @@
                 <h2 class="main-h2">Example of Input Validation</h2>
                 <p class="doc-p">The Input component can also have validation boxes. There are 2 variations: <span
                         class="prime-color-text">Valid Input, Invalid Input</span>.
-
                     <br>
-
                     <br>
                     <code class="main-code">
-                            input-valid:
-                        </code>
+                        input-valid:
+                    </code>
                     Green Input field.
                     <br>
                     <code class="main-code">
-                         input-invalid:
-                         </code>
+                        input-invalid:
+                    </code>
                     Red Input field .
                     <br>
                     <code class="main-code">
-                          invalid-input-err:
-                         </code>
+                        invalid-input-err:
+                    </code>
                     error message.
                     <br>
                     <br>
                     You can copy html part from below code snippet.
                     <br>
-
                 </p>
                 <div class="comp-container">
                     <input type="text" class="input-md all-border-input valid-input">
@@ -1214,9 +1211,8 @@
                     <br>
                     You can copy html part from below code snippet.
                     <br>
-
                 </p>
-                <div class="comp-container">
+                <div class="comp-container ">
                     <textarea class="input-text-area"></textarea>
                 </div>
                 <div class="code-snippet">
@@ -1227,7 +1223,132 @@
                     </iframe>
                 </div>
             </div>
+            <!-------------------------------Text-utilities------------------------->
+            <div id="typography">
+                <div class="comp-intro">
+                    <h1 class="main-h1">Typography</h1>
+                    <p class="main-p weight-mid">Documentation and examples for PixelUI's typography, including global
+                        settings, headings, body text, lists, and more.</p>
+                </div>
+                <h2 class="main-h2">Example of Headings</h2>
+                <p class="doc-p">We provide 5 types of headings.
+                    <br>
+                    Copy the HTML classes below to use them.
+                    <br>
+                </p>
+                <div class=" flex-col comp-container  ">
+                    <h1 class="main-h1">This is Heading 1</h1>
+                    <h2 class="main-h2">This is Heading 2</h2>
+                    <h3 class="main-h3">This is Heading 3 </h3>
+                    <h4 class="main-h4">This is Heading 4</h4>
+                    <h5 class="main-h5">This is Heading 5</h5>
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=760&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Ch1%2520class%253D%2522main-h1%2522%253EThis%2520is%2520Heading%25201%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522main-h2%2522%253EThis%2520is%2520Heading%25202%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522main-h3%2522%253EThis%2520is%2520Heading%25203%2520%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Ch4%2520class%253D%2522main-h4%2522%253EThis%2520is%2520Heading%25204%253C%252Fh4%253E%250A%2520%2520%2520%2520%253Ch5%2520class%253D%2522main-h5%2522%253EThis%2520is%2520Heading%25205%253C%252Fh5%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Example of Paragraph</h2>
+                <p class="doc-p">We provide 3 types of paragraph.
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        main-p:
+                    </code>
+                    main p is slightly larger with font-size of 23px.
+                    <br>
+                    <code class="main-code">
+                        doc-p:
+                    </code>
+                    doc p is slightly smaller with font-size of 18px.
+                    <br>
+                    <code class="main-code">
+                        foot-p:
+                    </code>
+                    for footer text.
+                    <br>
+                    <br>
+                    Copy the HTML classes below to use them.
+                    <br>
+                </p>
+                <div class=" flex-col comp-container  ">
+                    <p class="main-p">This is Main paragraph</p>
+                    <p class="doc-p">This is Doc paragraph</p>
+                    <p class="foot-p">This is footer paragraph </p>
 
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=760&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522main-p%2522%253EThis%2520is%2520Main%2520paragraph%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253EThis%2520is%2520Doc%2520paragraph%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522foot-p%2522%253EThis%2520is%2520footer%2520paragraph%2520%253C%252Fp%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Example of Small grey text</h2>
+                <p class="doc-p">We provide one type of small grey text.
+                </p>
+                <div class="comp-container">
+                    <span class="small-grey">This is a small grey text</span>
+                    <p class="small-grey">I am a small grey paragraph</p>
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=667&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522small-grey%2522%253EThis%2520is%2520a%2520small%2520grey%2520text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522small-grey%2522%253EI%2520am%2520a%2520small%2520grey%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520paragraph%253C%252Fp%253E"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="main-h2">Additional Styles used</h2>
+                <p class="doc-p">These are some additional styles used in our library
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        flex-col:
+                    </code>
+                    For flex-column.
+                    <br>
+                    <code class="main-code">
+                        flex:row:
+                    </code>
+                    For flex-row.
+                    <br>
+                    <code class="main-code">
+                        prime-color-text:
+                    </code>
+                    For primary color text.
+                    <br>
+                    <code class="main-code">
+                        accent-color-text:
+                    </code>
+                    For accent color text.
+                    <br>
+                    <code class="main-code">
+                        complement-text-color:
+                    </code>
+                    For the complementary button text color.
+                    <br>
+                    <br>
+                    Copy the HTML classes below to use them.
+                    <br>
+                </p>
+                <div class="comp-container flex-col">
+                    <h4 class="prime-color-text main-h4">This is a primary color text</h4>
+                    <h4 class="accent-color-text main-h4">This is an accent color text</h4>
+                </div>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=744.5&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522comp-container%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522prime-color-text%2520main-h4%2522%253EThis%2520is%2520a%2520primary%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520color%2520text%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522accent-color-text%2520main-h4%2522%2520%253EThis%2520is%2520an%2520accent%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520color%2520text%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+
+
+            </div>
 
 
 
