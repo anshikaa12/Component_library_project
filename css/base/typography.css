@@ -11,7 +11,7 @@
     margin:1rem;
 }
 .main-h4{
-    font-size:2.5rem;
+    font-size:2rem;
     margin:1rem;
 }
 .main-p{
@@ -30,4 +30,20 @@
 .foot-p{
     font-size:1.8rem;
     font-weight:300;
+}
+.small-grey{
+    font-size:13px;
+    color: grey;
+}
+.h1-text{
+    font-size:4rem;
+}
+.h2-text{
+    font-size:3rem;
+}
+.h3-text{
+    font-size:2.5rem;
+}
+.h4-text{
+    font-size:2rem;
 }

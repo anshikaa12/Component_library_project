@@ -9,7 +9,6 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-   
 	
 }
 .card-img{
@@ -40,6 +39,7 @@
 .card-footer{
     display: flex;
     justify-content: space-between;
+    padding:10px 0;
  
 }
 .card-btn{
@@ -60,6 +60,7 @@
 .card-icon{
     padding:1.2rem;
     color: grey;
+    font-size: 2rem;
 }
 /*----------------------------------------------------------------*/
 
@@ -106,4 +107,58 @@ horizontal image and text
 
 /*----------------------------------------------------------------*/
 
+/*E-commerce vertical*/
 
+.e-basic-card{
+    border-radius:0px;
+    position:relative;
+    background-color: var(--bg-color);
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:25rem;
+   
+}
+.e-card-img{
+    height:70%;
+    width:100%;
+}
+.e-card-subtext{
+    font-size:15px;
+    padding-bottom:5px;
+}
+.e-card-badge{
+    position:absolute;
+    height:3rem;
+    width:6rem;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color:var(--bg-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+
+}
+.e-card-dismiss{
+    position:absolute;
+    right:1rem;
+    font-size:2.5rem;
+}
+.overlay-card{
+height:100%;
+position:absolute;
+background-color:grey;
+width:100%;
+opacity:0.5;
+top:0;
+left:0;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:3rem;
+color:var(--text-color);
+}
