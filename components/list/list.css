@@ -1,0 +1,43 @@
+.ol-style,
+.ul-style {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.alphabet-list {
+    list-style-type: lower-alpha;
+}
+
+.roman-list {
+    list-style-type: upper-roman;
+}
+
+.circle-list {
+    list-style-type: circle;
+}
+
+.bullet-list {
+    list-style-type: disc;
+}
+
+.square-list {
+    list-style-type: square;
+}
+
+.icon-list {
+    list-style-type: none;
+}
+
+.icon-list-comp {
+    padding: 0 1.5rem;
+}
+
+.stacked-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.stacked-list li {
+    border: 1px solid var(--text-color);
+}

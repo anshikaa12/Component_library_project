@@ -14,17 +14,16 @@
 @import url('../components/alerts/alert.css');
 @import url('../components/images/image.css');
 @import url('../components/inputs/input.css');
+@import url('../components/list/list.css');
 @import url('../css/layout/documentation-footer.css');
 
-.documentation-page{
-    display:grid;
+.documentation-page {
+    display: grid;
     grid-template-columns: 0.7fr 1fr 1fr 1fr;
     grid-template-areas: "nav nav nav nav"
-                "sidebar main main main"
-                "sidebar main main main"
-                "sidebar main main main";
-margin-bottom: 2rem;
+        "sidebar main main main"
+        "sidebar main main main"
+        "sidebar main main main";
+    margin-bottom: 2rem;
 
 }
-
-
