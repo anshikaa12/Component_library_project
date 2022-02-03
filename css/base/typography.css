@@ -1,49 +1,66 @@
-.main-h1{
-    font-size:4rem;
-    margin:1rem;
+.main-h1 {
+    font-size: 4rem;
+    margin: 1rem;
 }
-.main-h2{
-    font-size:3rem;
-    margin:1rem;
+
+.main-h2 {
+    font-size: 3rem;
+    margin: 1rem;
 }
-.main-h3{
-    font-size:2.5rem;
-    margin:1rem;
+
+.main-h3 {
+    font-size: 2.5rem;
+    margin: 1rem;
 }
-.main-h4{
-    font-size:2rem;
-    margin:1rem;
+
+.main-h4 {
+    font-size: 2rem;
+    margin: 1rem;
 }
-.main-p{
-    font-size:2.3rem;
-    margin:1rem;
-   
+
+.main-h5 {
+    font-size: 1.5rem;
+    margin: 1rem;
 }
-.doc-p{
-    font-size:1.8rem;
-    margin:1rem;
+
+.main-p {
+    font-size: 2.3rem;
+    margin: 1rem;
+
 }
-.side-list-text{
-    font-size:1.8rem;
-    margin:0.5rem;
+
+.doc-p {
+    font-size: 1.8rem;
+    margin: 1rem;
 }
-.foot-p{
-    font-size:1.8rem;
-    font-weight:300;
+
+.side-list-text {
+    font-size: 1.8rem;
+    margin: 0.5rem;
 }
-.small-grey{
-    font-size:13px;
+
+.foot-p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.small-grey {
+    font-size: 13px;
     color: grey;
 }
-.h1-text{
-    font-size:4rem;
+
+.h1-text {
+    font-size: 4rem;
 }
-.h2-text{
-    font-size:3rem;
+
+.h2-text {
+    font-size: 3rem;
 }
-.h3-text{
-    font-size:2.5rem;
+
+.h3-text {
+    font-size: 2.5rem;
 }
-.h4-text{
-    font-size:2rem;
+
+.h4-text {
+    font-size: 2rem;
 }
