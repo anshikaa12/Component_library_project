@@ -25,7 +25,7 @@ close_btnc.onclick=()=>{
 }
 /******for click anywhere********* */
 window.onclick = function(event) {
-    if (event.target == bg2) {
+    if (event.target === bg2) {
       clickanywhere.classList.add("hide-modal");
       bg2.style.display="none";
     }
