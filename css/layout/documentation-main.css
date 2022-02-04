@@ -95,3 +95,9 @@
     display: flex;
     flex-direction: column;
 }
+
+/*****************/
+#modal {
+    display: flex;
+    flex-direction: column;
+}

@@ -16,6 +16,7 @@
 @import url('../components/inputs/input.css');
 @import url('../components/list/list.css');
 @import url('../components/navigation/navigation.css');
+@import url('../components/modal/modal.css');
 @import url('../css/layout/documentation-footer.css');
 
 .documentation-page {
