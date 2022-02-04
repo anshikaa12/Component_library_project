@@ -15,6 +15,7 @@
 @import url('../components/images/image.css');
 @import url('../components/inputs/input.css');
 @import url('../components/list/list.css');
+@import url('../components/navigation/navigation.css');
 @import url('../css/layout/documentation-footer.css');
 
 .documentation-page {
