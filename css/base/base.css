@@ -11,6 +11,10 @@ html {
     --alt-text-color: #3E4152;
     --complement-btn-text-color: white;
     --secondary-color: #0c080c;
+    --standard-color: #7FD2E6;
+    --success-color: #4E9A51;
+    --error-color: #D84646;
+    --warning-color: #F68A1C;
 }
 
 body {

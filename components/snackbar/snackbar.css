@@ -1,0 +1,71 @@
+.snackbar {
+    padding: 10px;
+    border-radius: 6px;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--bg-color);
+    z-index: 999;
+}
+
+.snack-btn {
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.snack-close {
+    padding: 0 1.5rem;
+    font-size: 2rem;
+}
+
+.baseline-bar {
+    position: fixed;
+    bottom: 2rem;
+    left: 35%;
+}
+
+.snack-top {
+    position: fixed;
+    top: 5rem;
+    right: 1rem;
+
+}
+
+.leading-bar {
+    position: fixed;
+    bottom: 2rem;
+    left: 3%;
+}
+
+.stacked-bar {
+    position: fixed;
+    bottom: 2rem;
+    right: 3%;
+}
+
+.snack-icon {
+    padding: 1rem;
+    font-size: 2rem;
+
+}
+
+.standard-snack {
+    background-color: var(--standard-color);
+}
+
+.success-snack {
+    background-color: var(--success-color);
+}
+
+.error-snack {
+    background-color: var(--error-color);
+}
+
+.alert-snack {
+    background-color: var(--warning-color);
+}
+
+.hide-snack {
+    display: none;
+}
