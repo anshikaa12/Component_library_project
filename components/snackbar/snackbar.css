@@ -51,19 +51,19 @@
 }
 
 .standard-snack {
-    background-color: #7FD2E6;
+    background-color: var(--standard-color);
 }
 
 .success-snack {
-    background-color: #4E9A51;
+    background-color: var(--success-color);
 }
 
 .error-snack {
-    background-color: #D84646;
+    background-color: var(--error-color);
 }
 
 .alert-snack {
-    background-color: #F68A1C;
+    background-color: var(--warning-color);
 }
 
 .hide-snack {
