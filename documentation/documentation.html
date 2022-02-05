@@ -81,6 +81,9 @@
                 <a href="#modal">
                     <li class="componentList side-list-text">Modal</li>
                 </a>
+                <a href="#snackbar">
+                    <li class="componentList side-list-text">Snackbar</li>
+                </a>
             </ul>
         </div>
         <!-----------------main------------------------->
@@ -1734,8 +1737,172 @@
                     </iframe>
                 </div>
             </div>
+            <!------------------------Snackbar----------------------------------->
+            <div id="snackbar">
+                <div class="comp-intro">
+                    <h1 class="main-h1">
+                        SnackBar
+                    </h1>
+                    <p class="main-p">
+                        Snackbars provide brief notifications. The component is also known as a toast.
+                    </p>
+                </div>
+                <h2 class="main-h2">
+                    Example of Snackbar
+                </h2>
+                <p class="doc-p">Snackbars are available in three positions: leading, baseline, stacked
+                    <br>
+                    You can use classes like <span class="prime-color-text">snackbar, leading-bar, baseline-bar,
+                        stacked-bar</span>
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        snackbar:
+                    </code>
+                    For styling of the standard snackbar.
+                    <br>
+                    <code class="main-code">
+                        leading-bar:
+                    </code>
+                    To position the snackbar at bottom left.
+                    <br>
+                    <code class="main-code">
+                        baseline-bar:
+                    </code>
+                    To position the snackbar at bottom mid.
+                    <br>
+                    <code class="main-code">
+                        stacked-bar:
+                    </code>
+                    To position the bar at the bottom right with stacked structure.
+                    <br>
+                    <code class="main-code">
+                        snack-close:
+                    </code>
+                    For the close icon on snackbar.
+                    <br>
+                    <br>
+                    <span class="prime-color-text">Click on the buttons below for demos</span>
+                    <br>
+                    Copy HTML and JS below
+                </p>
+                <div class="comp-container">
+                    <!----------Demo buttons------------------>
+                    <button id="baseline-btn" class=" btn btn-primary">Baseline</button>
+                    <button id="leading-btn" class=" btn btn-primary">Leading</button>
+                    <button id="stacked-btn" class=" btn btn-primary">Stacked</button>
+                </div>
+                <!--------------baseline-------------------->
+                <div class="snackbar standard-snack baseline-bar hide-snack flex-row">
+                    <p class="doc-p">Can't send photo. Retry in 5 seconds.</p>
+                    <div class="snack-btn flex-row">
+                        <button class="small-btn btn-primary-outline">RETRY</button>
+                        <i class="fas fa-times snack-close"></i>
+                    </div>
+                </div>
+                <!---------------leading------------------->
+                <div class="snackbar standard-snack leading-bar hide-snack flex-row">
+                    <p class="doc-p">Your photo has been archived.</p>
+                    <div class="snack-btn flex-row">
+                        <button class="small-btn btn-primary-outline">RETRY</button>
+                        <i class="fas fa-times snack-close"></i>
+                    </div>
+                </div>
+                <!----------------stacked----------------->
+                <div class="snackbar standard-snack stacked-bar hide-snack flex-col">
+                    <p class="doc-p">This item already has the label "travel". You can add a new label.</p>
+                    <div class="snack-btn flex-row">
+                        <button class="small-btn btn-primary-outline">RETRY</button>
+                        <i class="fas fa-times snack-close"></i>
+                    </div>
+                </div>
+                <!----------------Success Snackbar------------------------>
+                <div class="snackbar success-snack flex-row snack-top hide-snack ">
+                    <i class="fas fa-check-circle snack-icon"></i>
+                    <p class="doc-p">This is a Success Snackbar.</p>
 
+                </div>
+                <p class="doc-p">HTML</p>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253C%21----------Demo%2520buttons------------------%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522baseline-btn%2522%2520class%253D%2522%2520btn%2520btn-primary%2522%2520%253EBaseline%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522leading-btn%2522%2520class%253D%2522%2520btn%2520btn-primary%2522%2520%253ELeading%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520id%253D%2522stacked-btn%2522%2520class%253D%2522%2520btn%2520btn-primary%2522%2520%253EStacked%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%21--------------baseline--------------------%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520baseline-bar%2520hide-snack%2520flex-row%2522%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fp%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522snack-btn%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522small-btn%2520btn-primary-outline%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520snack-close%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21---------------leading-------------------%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520leading-bar%2520hide-snack%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253EYour%2520photo%2520has%2520been%2520archived.%253C%252Fp%253E%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snack-btn%2520flex-row%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522small-btn%2520btn-primary-outline%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520snack-close%2522%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21----------------stacked-----------------%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520stacked-bar%2520hide-snack%2520flex-col%2522%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253EThis%2520item%2520already%2520has%2520the%2520label%2520%2522travel%2522.%2520You%2520can%2520add%2520a%2520new%2520label.%253C%252Fp%253E%2520%250A%2520%2520%2520%253Cdiv%2520class%253D%2522snack-btn%2520flex-row%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522small-btn%2520btn-primary-outline%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520snack-close%2522%2520%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <p class="doc-p">JavaScript</p>
+                <div class="code-snippet">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=let%2520baseline%2520%253D%2520document.getElementsByClassName%28%2522baseline-bar%2522%29%255B0%255D%253B%250Alet%2520leading%2520%253D%2520document.getElementsByClassName%28%2522leading-bar%2522%29%255B0%255D%253B%250Alet%2520stacked%2520%253D%2520document.getElementsByClassName%28%2522stacked-bar%2522%29%255B0%255D%253B%250Alet%2520close_btn1%253D%2520document.getElementsByClassName%28%2522snack-close%2522%29%255B0%255D%253B%250Alet%2520close_btn2%253D%2520document.getElementsByClassName%28%2522snack-close%2522%29%255B1%255D%253B%250Alet%2520close_btn3%253D%2520document.getElementsByClassName%28%2522snack-close%2522%29%255B2%255D%253B%250Alet%2520baseline_btn%253Ddocument.getElementById%28%2522baseline-btn%2522%29%253B%250Alet%2520leading_btn%253Ddocument.getElementById%28%2522leading-btn%2522%29%253B%250Alet%2520stacked_btn%253Ddocument.getElementById%28%2522stacked-btn%2522%29%253B%250A%252F********baseline****************%2520*%252F%250Abaseline_btn.onclick%253D%28%29%253D%253E%257B%250Abaseline.classList.remove%28%2522hide-snack%2522%29%253B%250AsetTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520baseline.classList.add%28%2522hide-snack%2522%29%253B%250A%257D%252C%25205000%29%253B%250A%250A%257D%250Aclose_btn1.onclick%2520%253D%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520baseline.classList.add%28%2522hide-snack%2522%29%253B%250A%257D%250A%252F********leading****************%2520*%252F%250Aleading_btn.onclick%253D%28%29%253D%253E%257B%250A%2520%2520%2520%2520leading.classList.remove%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520leading.classList.add%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520%257D%252C%25205000%29%253B%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520close_btn2.onclick%2520%253D%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520leading.classList.add%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520%257D%250A%252F********stacked****************%2520*%252F%250Astacked_btn.onclick%253D%28%29%253D%253E%257B%250A%2520%2520%2520%2520stacked.classList.remove%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520stacked.classList.add%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520%257D%252C%25205000%29%253B%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%257D%250A%2520%2520%2520%2520close_btn3.onclick%2520%253D%2520%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520stacked.classList.add%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520%257D"
+                        style="border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
 
+                <h2 class="main-h2">Example of Different Variants of Snackbar</h2>
+                <p class="doc-p">Snackbars comes in 4 variants - Standard snackbar, Success snackbar, error snackbar,
+                    warning snackbar without a close button.It dissapears itself in 5 seconds.
+                    <br>
+                    You can add these by simply using classes like <span class="prime-color-text">success-snack,
+                        standard-snack, error-snack, warning-snack.</span>
+                    <br>
+                    <br>
+                    <code class="main-code">
+                        snack-top:
+                    </code>
+                    To set the position to top right.
+                    <br>
+                    <code class="main-code">
+                        snack-icon:
+                    </code>
+                    To set icon on a snackbar.
+                    <br>
+                    <br>
+                    <span class="prime-color-text">Click on the Demo button for a demo</span>
+                    <br>
+                    You can copy the HTML and JS snippet below
+                </p>
+                <div class="comp-container flex-col">
+                    <button id="demo-top-snack" class="btn-primary btn">Demo</button>
+                    <div class="snackbar standard-snack flex-row ">
+                        <i class="fas fa-exclamation snack-icon"></i>
+                        <p class="doc-p">Your photo has been archived.</p>
+
+                    </div>
+
+                    <div class="snackbar success-snack flex-row ">
+                        <i class="fas fa-check-circle snack-icon"></i>
+                        <p class="doc-p">This is a Success Snackbar.</p>
+
+                    </div>
+                    <div class="snackbar alert-snack flex-row ">
+                        <i class="fas fa-exclamation-triangle snack-icon"></i>
+                        <p class="doc-p">This is an alert Snackbar.</p>
+
+                    </div>
+                    <div class="snackbar error-snack flex-row ">
+                        <i class="fas fa-skull-crossbones snack-icon"></i>
+                        <p class="doc-p">This is a error Snackbar.</p>
+
+                    </div>
+                </div>
+                <p class="doc-p">HTML</p>
+                <code class="main-code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520id%253D%2522demo-top-snack%2522%2520class%253D%2522btn-primary%2520btn%2522%253EDemo%253C%252Fbutton%253E%250A%253C%21---add%2520class%2520snack-top%2520on%2520div%2520for%2520JS%2520functionality---------%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520standard-snack%2520flex-row%2520%2522%253E%2520%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation%2520snack-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253EYour%2520photo%2520has%2520been%2520archived.%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522snackbar%2520success-snack%2520flex-row%2520%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520snack-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253EThis%2520is%2520a%2520Success%2520Snackbar.%253C%252Fp%253E%250A%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520alert-snack%2520flex-row%2520%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520snack-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253EThis%2520is%2520an%2520alert%2520Snackbar.%253C%252Fp%253E%250A%2520%2520%2520%2520%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520error-snack%2520flex-row%2520%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2520snack-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522doc-p%2522%253EThis%2520is%2520a%2520error%2520Snackbar.%253C%252Fp%253E%250A%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+                <p class="doc-p">Javascript</p>
+                <code class="main-code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=solarized+light&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520let%2520demobtn%253D%2520document.getElementById%28%2522demo-top-snack%2522%29%253B%250A%2520%2520%2520%2520let%2520snack%253D%2520document.getElementsByClassName%28%2522snack-top%2522%29%255B0%255D%253B%250A%2520%2520%2520%2520demobtn.onclick%253D%28%29%253D%253E%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520snack.classList.remove%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520snack.classList.add%28%2522hide-snack%2522%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D%252C%25205000%29%253B%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%257D"
+                        style=" border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </code>
+            </div>
 
 
         </div>
@@ -1744,7 +1911,7 @@
         footer
     </div>
 
-
+    <script src="../components/snackbar/snackbar.js"></script>
     <script src="../components/alerts/alert.js"></script>
     <script src="../components/modal/modal.js"></script>
 </body>
