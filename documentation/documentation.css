@@ -30,3 +30,17 @@
     margin-bottom: 2rem;
 
 }
+
+@media only screen and (max-width:550px) {
+    .documentation-page {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "nav "
+            "sidebar"
+            "main"
+            "main";
+        margin-bottom: 2rem;
+
+    }
+
+}

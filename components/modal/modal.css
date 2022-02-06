@@ -50,3 +50,12 @@
 .hide-modal {
     display: none;
 }
+
+@media only screen and (max-width:550px) {
+    .demo-modal {
+        position: fixed;
+        top: 30%;
+        left: 10%;
+    }
+
+}
