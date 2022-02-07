@@ -1,6 +1,10 @@
 .doc-footer {
-    background-color: var(--alt-text-color);
+    background-color: var(--text-color);
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
