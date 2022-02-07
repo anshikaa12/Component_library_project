@@ -1,5 +1,6 @@
 nav {
     grid-area: nav;
+    overflow: hidden;
 }
 
 .nav-bar {
