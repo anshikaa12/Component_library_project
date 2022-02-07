@@ -6,7 +6,7 @@
     position: sticky;
     top: 0rem;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
-
+    z-index: 999;
 }
 
 .sidebar-list {
@@ -71,7 +71,7 @@
         flex-direction: column;
         color: var(--bg-color);
         align-items: center;
-        z-index: 3;
+
     }
 
     .side-bar-active {

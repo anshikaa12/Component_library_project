@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     color: var(--bg-color);
-    z-index: 999;
+    z-index: 99;
 }
 
 .snack-btn {
@@ -29,7 +29,7 @@
     position: fixed;
     top: 5rem;
     right: 1rem;
-
+    z-index: 100;
 }
 
 .leading-bar {
