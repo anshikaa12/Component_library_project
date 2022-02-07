@@ -1,87 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
-.basic-card{
-    width:30rem;
+.basic-card {
+    width: 30rem;
     background-color: var(--bg-color);
     border-radius: .5rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: .5rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-	
+
+
 }
-.card-img{
+
+.card-img {
     height: 55%;
     width: 100%;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
 }
-.card-body{
-    padding : 1rem 0.5rem 0.5rem 0.5rem;  
+
+.card-body {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+
 }
-.card-title{
-    font-size:2rem;
+
+.card-title {
+    font-size: 2rem;
     margin-bottom: 5px;
 }
-.card-subtext{
-    color:rgb(128, 128, 128);
+
+.card-subtext {
+    color: rgb(128, 128, 128);
     padding: .7rem 0;
-    font-size:1.3rem;
+    font-size: 1.3rem;
 }
 
-.card-content{
-    color:rgba(128, 128, 128,0.7);
+.card-content {
+    color: rgba(128, 128, 128, 0.7);
     padding: .5rem 0;
-    font-size:1rem;
+    font-size: 1rem;
 }
 
-.card-footer{
+.card-footer {
     display: flex;
     justify-content: space-between;
-    padding:10px 0;
- 
+    padding: 10px 0;
+
 }
-.card-btn{
+
+.card-btn {
     padding: 1.3rem;
-    color:var(--primary-color);
+    color: var(--primary-color);
     font-family: 'Inter', sans-serif;
-    font-weight:600;
-    background-color:var(--bg-color);
+    font-weight: 600;
+    background-color: var(--bg-color);
     text-align: center;
     border-radius: .5rem;
 }
-.card-btn:hover{
-    background-color:rgb(211, 211, 211,0.2);
+
+.card-btn:hover {
+    background-color: rgb(211, 211, 211, 0.2);
 }
-.connect-part{
-    margin-left:auto;
+
+.connect-part {
+    margin-left: auto;
 }
-.card-icon{
-    padding:1.2rem;
+
+.card-icon {
+    padding: 1.2rem;
     color: grey;
     font-size: 2rem;
 }
+
 /*----------------------------------------------------------------*/
 
 /*  
 basic card with text over media
 */
-.card-overlay-container{
+.card-overlay-container {
     position: relative;
 }
+
 .card-overlay-text {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom:.8rem;
-    left:.8rem;
-    background-color:transparent;
-    color:var(--bg-color);
+    bottom: .8rem;
+    left: .8rem;
+    background-color: transparent;
+    color: var(--bg-color);
 }
 
-.card-overlay-text span{
-    color: var(--bg-color) ;
+.card-overlay-text span {
+    color: var(--bg-color);
 }
 
 /*----------------------------------------------------------------*/
@@ -89,19 +100,20 @@ basic card with text over media
 /*  
 basic with header
 */
-.header-text{
-    padding : 1rem 0.5rem 0.5rem 0.5rem;  
+.header-text {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
 }
 
 /*----------------------------------------------------------------*/
 /*
 horizontal image and text
 */
-.card-header{
+.card-header {
     display: flex;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
-.card-img-header{
+
+.card-img-header {
     width: 40%;
 }
 
@@ -109,56 +121,61 @@ horizontal image and text
 
 /*E-commerce vertical*/
 
-.e-basic-card{
-    border-radius:0px;
-    position:relative;
+.e-basic-card {
+    border-radius: 0px;
+    position: relative;
     background-color: var(--bg-color);
     border-radius: .5rem;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: .5rem;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width:25rem;
-   
+
+    width: 25rem;
+
 }
-.e-card-img{
-    height:70%;
-    width:100%;
+
+.e-card-img {
+    height: 70%;
+    width: 100%;
 }
-.e-card-subtext{
-    font-size:15px;
-    padding-bottom:5px;
+
+.e-card-subtext {
+    font-size: 15px;
+    padding-bottom: 5px;
 }
-.e-card-badge{
-    position:absolute;
-    height:3rem;
-    width:6rem;
+
+.e-card-badge {
+    position: absolute;
+    height: 3rem;
+    width: 6rem;
     background-color: var(--primary-color);
     border-radius: 5px;
-    color:var(--bg-color);
-    display:flex;
+    color: var(--bg-color);
+    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
 
 }
-.e-card-dismiss{
-    position:absolute;
-    right:1rem;
-    font-size:2.5rem;
+
+.e-card-dismiss {
+    position: absolute;
+    right: 1rem;
+    font-size: 2.5rem;
 }
-.overlay-card{
-height:100%;
-position:absolute;
-background-color:grey;
-width:100%;
-opacity:0.5;
-top:0;
-left:0;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:3rem;
-color:var(--text-color);
+
+.overlay-card {
+    height: 100%;
+    position: absolute;
+    background-color: grey;
+    width: 100%;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--text-color);
 }

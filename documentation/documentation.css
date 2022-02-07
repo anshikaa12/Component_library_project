@@ -18,6 +18,7 @@
 @import url('../components/navigation/navigation.css');
 @import url('../components/modal/modal.css');
 @import url('../components/snackbar/snackbar.css');
+@import url('../components/grid/grid.css');
 @import url('../css/layout/documentation-footer.css');
 
 .documentation-page {
