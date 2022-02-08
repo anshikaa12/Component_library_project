@@ -22,6 +22,17 @@
 
 }
 
+@media only screen and (max-width:550px) {
+    .column-3-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 100%;
+
+
+    }
+}
+
 @media only screen and (max-width:1124px) {
     .column-3-grid {
         display: grid;
