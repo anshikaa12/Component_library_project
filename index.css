@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
-
 @import url('./css/base/base.css');
 @import url('./css/base/typography.css');
 @import url('./css/base/utilities.css');
@@ -9,10 +8,16 @@
 @import url('./css/layout/footer.css');
 @import url('./components/images/image.css');
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .landing-page {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr;
     grid-template-areas: "nav nav nav nav"
         "main main main main"
         "content1 content1 content2 content2";
@@ -28,7 +33,7 @@
     .landing-page {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 1fr 0.5fr 0.5fr;
+        grid-template-rows: 0.1fr 1fr 0.5fr 0.5fr;
         grid-template-areas: "nav"
             "main"
             "content1"

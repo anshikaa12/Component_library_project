@@ -1,5 +1,6 @@
 #main {
     grid-area: main;
+    width: 100%;
 }
 
 .main-container {
@@ -8,6 +9,8 @@
     padding: 1rem 4rem;
     color: var(--alt-text-color);
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .text-container {
@@ -16,10 +19,12 @@
     justify-content: center;
     flex: 1;
     padding: 2rem;
+    height: 100%;
 }
 
 .img-container {
     flex: 1;
+    height: 100%;
 }
 
 
@@ -42,9 +47,18 @@
 
 /****************************/
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width: 550px) {
     .main-container {
         flex-direction: column;
+    }
 
+    .text-container {
+        height: 50%;
+        width: 100%;
+    }
+
+    .img-container {
+        height: 50%;
+        width: 100%;
     }
 }

@@ -37,7 +37,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: "nav "
-            "sidebar"
             "main"
             "main";
         margin-bottom: 2rem;

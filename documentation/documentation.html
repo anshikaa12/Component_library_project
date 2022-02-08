@@ -19,7 +19,7 @@
                     <img class="nav-logo" src="../logo/logopixel1.png">
                 </a>
             </div>
-            <ul class="nav-links">
+            <ul class="nav-links flex-row">
                 <a class="li-link-a" href="../index.html">
                     <li class="li-link">Home</li>
                 </a>
@@ -44,12 +44,14 @@
                     </li>
                 </a>
             </ul>
+            <div class="nav-hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
         </nav>
-        <div class="side-bar side-bar-active">
-            <div class="mobile-side-bar ">
-                <h3 class="main-h3">Components</h3>
-                <i class="fas fa-caret-down mobile-sidebar-icon hide-sidebar"></i>
-            </div>
+        <div class="side-bar">
+            <div class="mobile-side" >
+                <h2 class="main-h2">Components</h2>
+           </div>
             <ul class="sidebar-list">
                 <a class="side-bar-links" href="#card">
                     <li class="componentList ">Cards</li>
@@ -1989,6 +1991,7 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
+
                 <h2 class="main-h2">Example of 3 items per column grid</h2>
                 <p class="doc-p">This adds 3 components per parent div before going to next row.
                     <br>
@@ -2108,7 +2111,7 @@
         <div class="footer-container">
             <p class="foot-p complement-text-color">Made with <i class="fas fa-heart prime-color-text"></i> by
                 Anshika Agarwal</p>
-            <ul class=" complement-text-color nav-links">
+            <ul class=" complement-text-color nav-links flex-row">
                 <a href="https://github.com/anshikaa12" class="nav-connect-a li-link-a">
                     <li class="connect-link li-link">
                         <i class="fab fa-github i-link-connect"></i>
