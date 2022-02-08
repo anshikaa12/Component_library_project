@@ -35,12 +35,10 @@
     margin: 2rem 0;
     background-color: #fafafa;
     overflow: auto;
+    border: 1.5px solid var(--primary-color);
 }
 
-.code-snippet iframe {
-    width: 100%;
-    border: none;
-}
+
 
 /***************/
 #button {
