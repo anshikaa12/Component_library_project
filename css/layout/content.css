@@ -22,11 +22,10 @@
 
 .code-container {
     width: 100%;
-    padding: 2rem;
-}
-
-iframe {
-    width: 100%;
-    border: 1px solid var(--primary-color);
+    max-height: 25rem;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    background-color: #fafafa;
     overflow: auto;
+    border: 1.5px solid var(--primary-color);
 }
