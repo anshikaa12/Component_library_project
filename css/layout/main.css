@@ -48,18 +48,10 @@
 
 /****************************/
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width:550px) {
     .main-container {
+        display: flex;
         flex-direction: column;
     }
 
-    .text-container {
-        height: 50%;
-        width: 100%;
-    }
-
-    .img-container {
-        height: 50%;
-        width: 100%;
-    }
 }
