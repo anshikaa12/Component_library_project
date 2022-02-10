@@ -5,6 +5,13 @@
 	align-items: center;
 }
 
+.flex-row-center {
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	align-items: center;
+}
+
 .prime-color-text {
 	color: var(--primary-color);
 }
@@ -33,4 +40,24 @@
 .flex-col {
 	display: flex;
 	flex-direction: column;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--primary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--primary-color);
+	opacity: 0.8;
 }
