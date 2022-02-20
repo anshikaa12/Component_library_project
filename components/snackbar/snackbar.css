@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     color: var(--bg-color);
-    z-index: 99;
+    z-index: 1000;
 }
 
 .snack-btn {
