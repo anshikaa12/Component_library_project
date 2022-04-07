@@ -1,55 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap");
 
-@import url('../css/layout/sidebar.css');
-@import url('../css/base/base.css');
-@import url('../css/base/typography.css');
-@import url('../css/base/utilities.css');
-@import url('../css/layout/nav.css');
-@import url('../css/layout/documentation-main.css');
-@import url('../css/layout/content.css');
-@import url('../components/cards/basic.css');
-@import url('../components/buttons/button.css');
-@import url('../components/avatars/avatar.css');
-@import url('../components/badges/badge.css');
-@import url('../components/alerts/alert.css');
-@import url('../components/images/image.css');
-@import url('../components/inputs/input.css');
-@import url('../components/list/list.css');
-@import url('../components/navigation/navigation.css');
-@import url('../components/modal/modal.css');
-@import url('../components/snackbar/snackbar.css');
-@import url('../components/grid/grid.css');
-@import url('../components/slider/slider.css');
-@import url('../css/layout/documentation-footer.css');
+@import url("../css/layout/sidebar.css");
+@import url("../css/base/base.css");
+@import url("../css/base/typography.css");
+@import url("../css/base/utilities.css");
+@import url("../css/layout/nav.css");
+@import url("../css/layout/documentation-main.css");
+@import url("../css/layout/content.css");
+@import url("../components/cards/basic.css");
+@import url("../components/buttons/button.css");
+@import url("../components/avatars/avatar.css");
+@import url("../components/badges/badge.css");
+@import url("../components/alerts/alert.css");
+@import url("../components/images/image.css");
+@import url("../components/inputs/input.css");
+@import url("../components/list/list.css");
+@import url("../components/navigation/navigation.css");
+@import url("../components/modal/modal.css");
+@import url("../components/snackbar/snackbar.css");
+@import url("../components/grid/grid.css");
+@import url("../components/slider/slider.css");
+@import url("../components/rating/rating.css");
+@import url("../css/layout/documentation-footer.css");
 
 .documentation-page {
-    display: grid;
-    grid-template-columns: 0.7fr 1fr 1fr 1fr;
-    grid-template-areas: "nav nav nav nav"
-        "sidebar main main main"
-        "sidebar main main main"
-        "sidebar main main main";
-    margin-bottom: 2rem;
-
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar main main main";
+  margin-bottom: 2rem;
 }
 
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 4rem;
-    right: 4rem;
-    z-index: 10;
+  display: none;
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  z-index: 10;
 }
 
-@media only screen and (max-width:550px) {
-    .documentation-page {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: "nav "
-            "main"
-            "main";
-        margin-bottom: 2rem;
-
-    }
-
+@media only screen and (max-width: 550px) {
+  .documentation-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "nav "
+      "main"
+      "main";
+    margin-bottom: 2rem;
+  }
 }

@@ -95,6 +95,9 @@
                 <a class="side-bar-links" href="#slider-comp">
                     <li class="componentList ">Slider</li>
                 </a>
+                <a class="side-bar-links" href="#rating-comp">
+                    <li class="componentList ">Rating</li>
+                </a>
             </ul>
         </div>
         <!-----------------main------------------------->
@@ -1932,21 +1935,49 @@
             <div id="slider-comp">
                 <div class="comp-intro">
                     <h1 class="main-h1">Slider System</h1>
-                    <p class="main-p">TPixelUI provides responsive slider range</p>
+                    <p class="main-p">PixelUI provides responsive slider range</p>
                 </div>
                 <h2 class="main-h2">Example of Standard Slider</h2>
                 <p class="doc-p">
                     Use class <span class="prime-color-text">st-slider</span></p>
                 <div class="comp-container">
-                        <label for="volume" class="h3-text">Rating</label>
-                        <input type="range" id="volume" name="volume"
-                               min="0" max="11" class="h3-text st-slider">
-                       
+                    <label for="volume" class="h3-text">Rating</label>
+                    <input type="range" id="volume" name="volume" min="0" max="11" class="h3-text st-slider">
+
                 </div>
                 <div class="code-snippet">
                     <script src="https://gist.github.com/anshikaa12/e96d92704d009d664f418f87073ebabd.js"></script>
                 </div>
-</div>
+            </div>
+            <!-------------------------rating system------------------------------->
+            <div id="rating-comp">
+                <div class="comp-intro">
+                    <h1 class="main-h1">Rating System</h1>
+                    <p class="main-p">PixelUI provides responsive rating</p>
+                </div>
+                <h2 class="main-h2">Example of Standard Rating</h2>
+                <p class="doc-p">
+                    Use class <span class="prime-color-text">st-rating</span></p>
+                <div class="comp-container">
+                    <div class="st-rating">
+                        <input type="radio" id="5-stars" name="rating" value="5" />
+                        <label for="5-stars" class="star">&#9733;</label>
+                        <input type="radio" id="4-stars" name="rating" value="4" />
+                        <label for="4-stars" class="star">&#9733;</label>
+                        <input type="radio" id="3-stars" name="rating" value="3" />
+                        <label for="3-stars" class="star">&#9733;</label>
+                        <input type="radio" id="2-stars" name="rating" value="2" />
+                        <label for="2-stars" class="star">&#9733;</label>
+                        <input type="radio" id="1-star" name="rating" value="1" />
+                        <label for="1-star" class="star">&#9733;</label>
+                      </div>
+                </div>
+                <div class="code-snippet">
+                    <script src="https://gist.github.com/anshikaa12/e4c6517b9ed44840d8b9bf3e7b552378.js"></script>
+                </div>
+            </div>
+
+
         </div>
     </div>
     <div class="doc-footer">
@@ -1972,8 +2003,9 @@
             </ul>
             <p class="foot-p complement-text-color flex-col-center">© 2022 PixelUI</p>
         </div>
-       
-        <button onclick="topFunction()" id="myBtn"class="btn btn-accent floating-btn icons-btn"><i class="fas fa-arrow-up"></i></button>
+
+        <button onclick="topFunction()" id="myBtn" class="btn btn-accent floating-btn icons-btn"><i
+                class="fas fa-arrow-up"></i></button>
     </div>
     <script src="documentation.js"></script>
     <script src="../css/layout/sidebar.js"></script>
