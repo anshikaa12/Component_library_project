@@ -1,0 +1,28 @@
+.st-rating {
+  border: solid 1px #ccc;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 3rem;
+  justify-content: space-around;
+  padding: 0 0.2em;
+  text-align: center;
+  width: 5em;
+}
+
+.st-rating input {
+  display: none;
+}
+
+.st-rating label {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.st-rating :checked ~ label {
+  color: #f90;
+}
+
+.st-rating label:hover,
+.st-rating label:hover ~ label {
+  color: #fc0;
+}
